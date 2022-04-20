@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgba(60,179,113,255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    padding: 20px;
+}
+.box {
+    width: 50em;
+    height: 50em;
+    object-fit: fill;
+    background: white;
+}
+.padding15px {
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+h1 {
+    font-size: 25px;
+}
+p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.apacia {
+    padding: 20px;
+    color: rgba(128, 128, 128, 0.678);
+    font-size: 15px;
+    
+}
+.box1 {
+    height: 40em;
+    width: 100%;
+    background: white;
+    object-fit: fill;
+}
+.container1 {
+    display: grid;
+    flex: 800px;
+    grid-gap: 20px;
+    padding-right: 20px;
+}
+.container2 {
+    display: grid;
+    width: 490px;
+}
+
+.box2 {
+    height: 13em;
+    width: 100%;
+    background: white;
+}
+.padding180 {
+    padding-top: 180px;
+}
+.padding30 {
+    padding-top: 30px;
+}
+.content {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
